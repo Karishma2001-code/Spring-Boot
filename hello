@@ -1,4 +1,6 @@
+http://localhost:8081/api/hello
 @RestController
+@RequestMapping("/api")
 public class StudentController {
     @GetMapping("/hello")
     public String showForm() {
